@@ -12,10 +12,16 @@ h1 {
 /* ===== כותרת עליונה ===== */
 header {
     background-color: #000000;
+    background-image: url("../images/cinema-banner.png");
+    background-position: center;
+    background-size: cover;
+    padding: 12px;
+    border-bottom: 2px solid rgb(231, 28, 28);
+    text-align: center;
 }
 
 header img {
-    width: 180px;
+    width: 200px;
 }
 nav a {
     color: #ffffff;
@@ -39,10 +45,28 @@ nav {
 }
 .movie img {
     width: 200px;
+    border: 2px solid rgb(231, 28, 28);
+    border-radius: 8px;
+}
+.movie {
+    background-color: #252525;
+    border: 2px solid #3a3a3a;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.45);
+    padding: 8px;
+    margin-bottom: 20px;
+}
+.movie:hover {
+    background-color: #2d0f0f;
+    border-color: rgb(231, 28, 28);
+    box-shadow: 0 8px 20px rgba(245, 24, 24, 0.22);
 }
 /* ===== עמוד אודות ===== */
 .about img {
     width: 200px;
+    border: 3px solid rgb(231, 28, 28);
+    border-radius: 50%;
+    box-shadow: 0 4px 14px rgba(245, 24, 24, 0.22);
 }
 .about h2 span {
     color: rgb(231, 28, 28);
@@ -53,6 +77,7 @@ footer {
     color: #9a9a9a;
     text-align: center;
     font-size: 14px;
+    border-top: 2px solid rgb(231, 28, 28);
 }
 footer a {
     color: #ffffff;
