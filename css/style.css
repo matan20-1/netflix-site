@@ -1,3 +1,4 @@
+/* ===== כל האתר ===== */
 body {
     font-family: "Rubik", Arial, sans-serif;
     background-color: #141414;
@@ -5,13 +6,59 @@ body {
     line-height: 1.6;
 }
 h1 {
-    color: rgb(204, 73, 73);
+    color: rgb(231, 28, 28);
     font-size: 36px;
 }
+/* ===== כותרת עליונה ===== */
 header {
     background-color: #000000;
 }
 
 header img {
     width: 180px;
+}
+nav a {
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+}
+nav {
+    color: #555555;
+}
+/* ===== כרטיסי הסרטים ===== */
+.movie h2 {
+    color: rgb(231, 28, 28);
+    font-size: 24px;
+}
+.movie span {
+    color: #9a9a9a;
+    font-weight: bold;
+}
+.movie a {
+    color: rgb(231, 28, 28);
+}
+.movie img {
+    width: 200px;
+}
+/* ===== עמוד אודות ===== */
+.about img {
+    width: 200px;
+}
+.about h2 span {
+    color: rgb(231, 28, 28);
+}
+/* ===== כותרת תחתונה ===== */
+footer {
+    background-color: #000000;
+    color: #9a9a9a;
+    text-align: center;
+    font-size: 14px;
+}
+footer a {
+    color: #ffffff;
+}
+
+footer span {
+    color: rgb(231, 28, 28);
+    font-weight: bold;
 }
